@@ -1,2 +1,2 @@
 # cs410-assignment2
-Elias Charles, Maddie Pocaro, Patrick Rodriguez, Nathan Pang
+Elias Charles, Maddie Porcaro, Patrick Rodriguez, Nathan Pang
