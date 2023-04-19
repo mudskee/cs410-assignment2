@@ -10,6 +10,7 @@ After the tutorial was followed, there were some extra components added:
 ### Dot Product
 
 ### Linear Interpolation (LERP)
+Using LERP, the ghosts will change color depending on how close they are to the player
 
 ### Particle Effects
 While there were particle effects already in the orginal tutorial, more were added to the radiators for a visual effects 
