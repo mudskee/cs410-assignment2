@@ -7,9 +7,9 @@ Primarily followed the tutorial from [here](https://learn.unity.com/project/john
 
 After the tutorial was followed, there were some extra components added:
 
-### Dot Product
+### Dot Product - Elias
 
-### Linear Interpolation (LERP)
+### Linear Interpolation (LERP) - Nathan
 Using LERP, the ghosts will change color depending on how close they are to the player
 
 ### Particle Effects - Maddie
