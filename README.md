@@ -13,6 +13,6 @@ After the tutorial was followed, there were some extra components added:
 Using LERP, the ghosts will change color depending on how close they are to the player
 
 ### Particle Effects
-While there were particle effects already in the orginal tutorial, more were added to the radiators for a visual effects 
-and a green particle effect added to some of the paintings for a spooky effect. 
+While there were particle effects already in the orginal tutorial, more were added  
+as a green particle effect added to some of the paintings for a spooky effect. 
 
