@@ -12,7 +12,7 @@ After the tutorial was followed, there were some extra components added:
 ### Linear Interpolation (LERP)
 Using LERP, the ghosts will change color depending on how close they are to the player
 
-### Particle Effects
+### Particle Effects - Maddie
 While there were particle effects already in the orginal tutorial, more were added  
-as a green particle effect added to some of the paintings for a spooky effect. 
+as a green particle effect added to one of the paintings and under the beds for a spooky effect. 
 
