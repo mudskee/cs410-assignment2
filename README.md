@@ -8,6 +8,7 @@ Primarily followed the tutorial from [here](https://learn.unity.com/project/john
 After the tutorial was followed, there were some extra components added:
 
 ### Dot Product - Elias
+Added "boo-like" ghost that follows the player when its back is turned to the ghost.
 
 ### Linear Interpolation (LERP) - Nathan
 Using LERP, the ghosts will change color depending on how close they are to the player
