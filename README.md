@@ -18,4 +18,4 @@ While there were particle effects already in the orginal tutorial, more were add
 as a green particle effect added to one of the paintings and under the beds for a spooky effect. 
 
 ### Custom Gameplay Effects
-All of the bonux gameplay effects (i.e. effects not contained in the tutorial) are on their separate branches at the moment, we are working on merging them.
+All of the bonus gameplay effects (i.e. effects not contained in the tutorial) are on their separate branches at the moment, we are working on merging them.
