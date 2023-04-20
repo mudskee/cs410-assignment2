@@ -11,7 +11,7 @@ After the tutorial was followed, there were some extra components added:
 Added "boo-like" ghost that follows the player when its back is turned to the ghost.
 
 ### Linear Interpolation (LERP) - Nathan
-Using LERP, the ghosts will change color depending on how close they are to the player
+Using LERP, the ghosts will change color depending on how long the player has been spotted for
 
 ### Particle Effects - Maddie
 While there were particle effects already in the orginal tutorial, more were added  
