@@ -16,7 +16,6 @@ public class GameEnding : MonoBehaviour
     bool m_HasAudioPlayed;
     bool m_IsPlayerAtExit;
     bool m_IsPlayerCaught;
-    int coyotetime = 0;
     float m_Timer;
 
     void OnTriggerEnter(Collider other)

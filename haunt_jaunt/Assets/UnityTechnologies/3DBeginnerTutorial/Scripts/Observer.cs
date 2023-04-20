@@ -6,16 +6,15 @@ public class Observer : MonoBehaviour
 {
     public Transform player;
     public GameEnding gameEnding;
-    private Coroutine colorchange;
-    private Coroutine colorchangeback;
-    private bool ischange;
+    private IEnumerator colorchange;
+
     Renderer enemy;
     bool m_IsPlayerInRange;
 
     private void Awake()
     {
         enemy = this.transform.parent.gameObject.GetComponent<Renderer>();
-        ischange = false;
+        colorchange = LerpFunc(Color.red, 8);
     }
     void OnTriggerEnter(Collider other)
     {
@@ -44,11 +43,7 @@ public class Observer : MonoBehaviour
             {
                 if (raycastHit.collider.transform == player)
                 {
-                    if(enemy.material.color != Color.white)
-                    {
-                        ischange = false;
-                    }
-                    colorchange = StartCoroutine(LerpFunc(Color.red,10));
+                    StartCoroutine(colorchange);
                 }
             }
             if(enemy.material.color == Color.red)
@@ -58,27 +53,21 @@ public class Observer : MonoBehaviour
         }
         else if(enemy.material.color != Color.white )
         {
-            ischange = false;
-            colorchange = StartCoroutine(LerpFunc(Color.white,6));
+            StopCoroutine(colorchange);
         }
     }
     IEnumerator LerpFunc(Color endv, float duration)
     {
-        ischange = true;
+        Debug.Log("Started");
         float time = 0;
         Color startv = enemy.material.color;
         while (time < duration)
         {
-            if (!ischange)
-            {
-                yield break;
-            }
             enemy.material.color = Color.Lerp(startv, endv, time / duration);
             time += Time.deltaTime;
             yield return null;
         }
-
-        ischange = false;
         enemy.material.color = endv;
+        Debug.Log("Finished");
     }
 }
