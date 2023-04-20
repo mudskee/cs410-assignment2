@@ -17,3 +17,5 @@ Using LERP, the ghosts will change color depending on how long the player has be
 While there were particle effects already in the orginal tutorial, more were added  
 as a green particle effect added to one of the paintings and under the beds for a spooky effect. 
 
+### Custom Gameplay Effects
+All of the gameplay effects are on their separate branches at the moment, we are working on merging them.
