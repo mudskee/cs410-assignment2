@@ -25,3 +25,4 @@ as a green particle effect added to one of the paintings and under the beds for 
 
 ### Custom Gameplay Effects
 All of the bonus gameplay effects (i.e. effects not contained in the tutorial) are on their separate branches at the moment, we are working on merging them.
+(The Main branch now also has them)
